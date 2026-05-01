@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>AI Literacy Quiz</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <div class="container">
+    <header>
+      <h1>🤖 AI Literacy Quiz</h1>
+      <p class="subtitle">Test your knowledge of Artificial Intelligence — 10 questions, instant feedback.</p>
+    </header>
+    <div id="quiz-section">
+      <div id="progress-bar-wrap"><div id="progress-bar"></div></div>
+      <p id="question-counter">Question 1 of 10</p>
+      <div id="question-box">
+        <h2 id="question-text"></h2>
+        <ul id="options-list"></ul>
+      </div>
+      <button id="next-btn" disabled>Next →</button>
+    </div>
+    <div id="result-section" class="hidden">
+      <h2>Your Results</h2>
+      <div id="score-display"></div>
+      <div id="feedback-box"></div>
+      <button id="restart-btn">🔄 Retake Quiz</button>
+    </div>
+  </div>
+  <script src="script.js"></script>
+</body>
+</html>
